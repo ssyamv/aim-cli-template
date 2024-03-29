@@ -1,0 +1,16 @@
+{
+  "id": "4427296",
+  "name": "AI-Assistant-Home",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1904339",
+      "name": "头像 男孩",
+      "font_class": "icon-test",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}
