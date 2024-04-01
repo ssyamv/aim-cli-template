@@ -6,7 +6,7 @@
 export {}
 declare global {
   const EffectScope: typeof import('vue')['EffectScope']
-  const ElMessage: (typeof import('element-plus/es'))['ElMessage']
+  const ElMessage: typeof import('element-plus/es')['ElMessage']
   const ElMessageBox: (typeof import('element-plus/es'))['ElMessageBox']
   const acceptHMRUpdate: typeof import('pinia')['acceptHMRUpdate']
   const computed: typeof import('vue')['computed']
@@ -69,6 +69,7 @@ declare global {
   const useCssModule: typeof import('vue')['useCssModule']
   const useCssVars: typeof import('vue')['useCssVars']
   const useLink: typeof import('vue-router')['useLink']
+  const useRequest: typeof import('vue-hooks-plus')['useRequest']
   const useRoute: typeof import('vue-router')['useRoute']
   const useRouter: typeof import('vue-router')['useRouter']
   const useSlots: typeof import('vue')['useSlots']
