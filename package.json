@@ -13,7 +13,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "prepare": "git init&&husky install",
+    "prepare": "git init && husky install",
     "pre-commit": "lint-staged",
     "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
