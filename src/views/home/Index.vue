@@ -14,7 +14,11 @@ _example();
 </script>
 
 <template>
-  <el-text class="font-bold">{{ msg }}</el-text>
+  <el-text class="font-bold text">{{ msg }}</el-text>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.text {
+  @apply flex;
+}
+</style>
