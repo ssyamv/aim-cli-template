@@ -9,7 +9,7 @@
     "dev:prod": "vite --mode prod",
     "build": "vite build --mode develop",
     "build:test": "vite build --mode test",
-    "buid:prod": "vite build --mode prod",
+    "build:prod": "vite build --mode prod",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
